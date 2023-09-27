@@ -1,0 +1,287 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    /* background-color: lightblue; */
+}
+header{
+    /* background-color: rgba(0, 0, 0, 0.943); */
+}
+.navclass{
+    background-color: black;
+    margin: 5px;
+    border-radius: 25px;
+}
+nav ul {
+    list-style: none;
+    display:flex;
+    /* justify-content: left; */
+    /* background-color: #f51212c7; */
+    border-radius: 0.2cm;
+    padding-left: 100px;
+}
+
+nav ul li {
+    margin: 17px;
+    /* padding-right: 15px; */
+}
+nav ul li a{
+    
+}
+
+nav ul li a:hover{
+    color: rgb(249, 0, 17);
+   
+}
+nav ul li:hover{
+    transform: scale(0.9);
+    transition-duration: 0s;
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0px 10px;
+   
+   
+}
+
+
+.logo{
+    max-width: 50px;
+    border-radius: 50%;
+position: absolute;
+opacity: px;
+/* background-color: aqua; */
+padding-left: 20px;
+
+}
+.logo:hover{
+    /* transform: scale(1.5); */
+}
+/* Style for the slider section */
+.slider {
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slide img {
+
+    width: 100%;
+    height: auto;
+}
+
+.slide-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(75, 58, 58, 0.5);
+    padding: 20px;
+    max-width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 5px darkorange;
+}
+
+.slide-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.slide-text p {
+    font-size: 1.2rem;
+}
+
+*{
+       
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: url(./loginpage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Log_inpage{
+    
+    /* border: 2px solid black; */
+    height: max-content;
+    width: auto;
+    color: white;
+    /* padding-bottom: 306px; */
+    /* margin-top: 10px; */
+    text-align: center;
+    padding: 30px;
+    opacity: 0.9;
+}
+#login{
+    /* border: 2px solid black; */
+   height: 400px;
+   width: 40%;
+   border-radius: 2px solid black;
+   text-align: center;
+   margin: auto;
+   margin-bottom: px;
+   background-color:aliceblue;
+   border-radius: 6px;
+   padding: 30px;
+}
+.phn_pswd{
+    text-align: center;
+    padding: 4px;
+}
+.right{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+button[type=submit]{
+/* background-color:  rgba(0, 0, 0, 0.868); */
+width: 56%;
+color: white;
+padding: 10px 55px;
+/* margin-top: 12px; */
+border-radius: 4px;
+cursor: pointer;
+border: navajowhite;
+
+}
+button:hover{
+color: rgba(40, 15, 233, 0.868);
+}
+#logo{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
+#logo:hover{
+    transform: scale(0.7);
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 34, 223);
+    font-size: 14px;
+ 
+}
+a:hover{
+    color: rgb(17, 243, 28);
+}
+/* #signup_forgetpass{
+border: 10px solid black;
+}  */
+input[type=email],[type=password],[type=text]{
+width: 50%;
+padding: 4px 14px;
+}
+
+#btn{
+text-align: center;
+margin: 12px 0 ;
+}
+#crt_forget{
+    /* border: 1px solid black; */
+    width: 56%;
+    margin: auto;
+    margin-bottom: 20px;
+/* width: fit-content; */
+/* padding-left: 102px; */
+
+}
+#foot{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    /* text-align: center; */
+    text-shadow: 2px 2px blue;
+      text-align: center;
+     /* justify-content: last baseline; */     
+}
+#footlogo{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+}
+#footlogo:hover{
+transform: scale(1.3);
+}
+h2{
+text-align: center;
+color: solid black;
+}
+img{
+opacity: 5;
+}
+#chekbox{
+    width: auto;
+    /* margin: auto; */
+    padding-right: 50px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:500px)
+{
+    body{
+        background: none;
+    }
+   #Log_inpage{
+   /* background: skyblue; */
+   margin: non;
+   width: 100%;
+   }
+   #login{
+    background-color: antiquewhite;
+    width: auto;
+    margin: auto;
+   }
+   #crt_forget{
+   /* border: 2px solid black; */
+   /* display:flex; */
+   /* display: inline-block; */
+  
+   width: 100%;
+   padding-left: 0%;
+   margin-bottom: 20px;
+   margin-top: 0%;
+   }
+    #frgt{
+       padding-right: 43px;
+    }
+    #crt{
+        padding-left: 43px;
+
+    }
+    input[type=email],[type=password],[type=text]
+    {
+        width: auto;
+    }
+ button[type=submit]{
+    padding: 10px 5px;
+ }
+ a{
+    font-size: 10px;
+ }
+ #chekbox{
+   font-size: 10px;
+   padding-left: 45px;
+ }
+ input[type=checkbox]
+ {
+    height: 10px;
+    width: 10px;
+ }
+}
